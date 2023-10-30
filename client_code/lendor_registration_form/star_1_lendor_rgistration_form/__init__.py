@@ -17,4 +17,4 @@ class star_1_lendor_rgistration_form(star_1_lendor_rgistration_formTemplate):
 
   def button_2_click(self, **event_args):
     """This method is called when the button is clicked"""
-    pass
+    open_form("lendor_registration_form.star_1_lendor_rgistration_form.lendorhomepage")
