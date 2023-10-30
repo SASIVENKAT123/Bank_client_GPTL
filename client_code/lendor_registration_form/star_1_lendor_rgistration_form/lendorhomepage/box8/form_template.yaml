@@ -26,6 +26,13 @@ components:
     name: button_1
     layout_properties: {grid_position: 'ODCNNE,LRYLPH', full_width_row: true}
     event_bindings: {click: button_1_click}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Request Top-up amount, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_1
+    layout_properties: {slot: title, grid_position: 'HHKREJ,MXAPWG'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
